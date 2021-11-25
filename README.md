@@ -2,6 +2,7 @@
 
 
 # App Gradle
+```
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -112,8 +113,10 @@ dependencies {
 
     implementation 'android.arch.lifecycle:extensions:1.1.1'
 }
+```
 
 # Prject Gradle
+```
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -145,3 +148,4 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+```
